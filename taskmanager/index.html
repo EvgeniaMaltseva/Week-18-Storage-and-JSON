@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style.css" rel="stylesheet" />
+    <link href="assets/normalize.css" rel="stylesheet" />
+    <title>Taskmanager</title>
+</head>
+<body>
+    <header class="header">
+        <img class="photo" src="assets/img/bild2.jpeg">
+        <h1 class="title">Планировщик задач</h1>
+    </header>
+    <main class="main">
+        <form action="">
+            <div class="addtask">
+                <input class="taskentry" id="taskentry" type="text" placeholder="Введите задачу">
+                <button class="button-add" type="button">Добавить задачу</button>
+            </div>
+            <div class="tasklist">
+                <h2 class="list">Список задач</h2>
+                <ul class="task-list" id="task-list"></ul>
+            </div>
+            <p class="notasks"> НЕТ  ЗАДАЧ </p>
+            <button class="cleanbtn" disabled>Очистить список задач</button>
+            </form>
+    </main>
+    
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

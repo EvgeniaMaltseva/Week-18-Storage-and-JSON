@@ -1,0 +1,83 @@
+body {
+    background-color: aliceblue;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    gap: 5%;
+}
+.title{
+    font-size: 70px;
+    color: blue;
+    font-style: italic;
+    width: 70%;
+}
+.photo {
+    width: 20%;
+    height: 150px;
+}
+.taskentry {
+    border: 2px solid rgb(61, 111, 177);
+    border-radius: 5px;
+    min-width: 30%;
+    min-height: 30px;
+    padding: 20px;
+}
+.main {
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.list {
+    text-indent:100px;
+}
+.button-add, .cleanbtn {
+    min-width: 20%;
+    min-height: 50px;
+    border: 2px solid rgb(61, 111, 177);
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+}
+.cleanbtn {
+    margin-top: 5%;
+}
+input.taskchbox {
+    filter: invert(10%) hue-rotate(5deg) brightness(1.0);
+    width: 20%;
+    min-height: 30px;
+    float: right;
+}
+button:disabled,
+button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+.taskentry {
+    font-size: 20px;
+}
+.task {
+    border: 3px solid lightgray;
+    border-radius: 5%;
+    width: 30%;
+    min-height: 30px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 1%;
+} 
+.task-list{
+    font-size: 20px;
+}
+.notasks {
+    font-size: 40px;
+    font-weight: 700;
+    color: gray;
+    text-indent:100px;
+}   
+.checked {
+	text-decoration: line-through;
+}
